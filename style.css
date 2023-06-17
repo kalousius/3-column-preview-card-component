@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align sections vertically */
+    justify-content: center;
+    margin-top: 200px;
+    }
+  
+section {
+    margin: 0px;
+    text-align: center;
+    flex: 0 0 calc(33.33% - 10px);
+  }
+
+  .container {
+    display: flex;
+    /*flex-wrap:wrap;*/
+    justify-content:space-around;
+    
+    
+  }
+  
+  h3 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.luxury {
+    border: 2px solid hsl(179, 100%, 13%);
+    padding: 15px 30px 30px 30px;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+}
+.suvs {
+    border: 2px solid hsl(184, 100%, 22%);
+    padding: 15px 30px 30px 30px;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+}
+
+    .sedans {
+        border: 2px solid hsl(31, 77%, 52%);
+        padding: 15px 30px 30px 30px;
+        background-color: hsl(31, 77%, 52%);
+        color: white;
+        border-radius: 15px 0px 0px 15px;
+    }
+    h3.title {
+        font-family: Arial, sans-serif;
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+      }
+    /* Styles for the "Learn More" button */
+.button-luxury {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(242, 242, 247);
+    color: #006970;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  font-family: 'Arial', sans-serif;
+    
+  }
+  
+  .button-luxury:hover {
+    background-color: rgb(145, 216, 143);
+  }
+  .button-suvs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(242, 242, 247);
+    color: #006970;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  font-family: 'Arial', sans-serif;
+    
+  }
+  
+  .button-suvs:hover {
+    background-color: rgb(145, 216, 143);
+  }
+
+
+.button-sedans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(242, 242, 247);
+  color: #E38826;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+font-family: 'Arial', sans-serif;
+  
+}
+
+.button-sedans:hover {
+  background-color: rgb(145, 216, 143);
+}
+  
+.header {
+    display: block ;
+    flex-direction: row;
+    font: size 11px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%
+    font-size 11px;
+    text-align:center;
+    position:fixed;
+   
+  }
+  
